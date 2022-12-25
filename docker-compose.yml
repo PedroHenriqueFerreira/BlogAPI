@@ -13,4 +13,4 @@ services:
     volumes:
       - ~/.PostgressData/postgresonly/blog_strapi_api:/var/lib/postgresql/data/pgdata
     ports:
-      - 5400:5400
+      - 5432:5432
